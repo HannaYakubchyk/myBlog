@@ -10,3 +10,9 @@ class PostList(generic.ListView):
 class PostDetail(generic.DetailView):
     model = Post
     template_name = 'post_detail.html'
+
+
+class ContactDetail(generic.TemplateView):
+    template_name = 'contact.html'
+
+
